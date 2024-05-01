@@ -1,0 +1,69 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.34.1-Prizren">
+  <identifier>zwe_admbndl_admALL_zimstat_ocha_itos_20180911</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>ZIMBABWE: Admin Lines</title>
+  <abstract>The dataset was created by converting the Zimbabwe Admin3 polygon layer to lines
+
+Administrative boundary lines for Zimbabwe admin level 0-3. Each line is attributed with the highest Admin level that it can represent. These lines can be helpful for cartographic purposes.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>COD</keyword>
+    <keyword>COD-AB</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address>1180 E. Broad St.</address>
+      <city>Athens</city>
+      <administrativearea>Georgia</administrativearea>
+      <postalcode>30602-5418</postalcode>
+      <country>US</country>
+    </contactAddress>
+    <name>Joseph Childs</name>
+    <organization>ITOS - University of Georgia</organization>
+    <position>Staff</position>
+    <voice>(706) 542-7766</voice>
+    <fax></fax>
+    <email>gist-admin@cviog.itos.uga.edu</email>
+    <role></role>
+  </contact>
+  <links/>
+  <history>Layer was created by ITOS by converting the Zimbabwe Admin2 polygon layer to lines. The lines were created after all processing on the admin layer had been completed by ITOS. An 'AdminLevel' field is used to attribute the lines. The values used for this field are: (0,1,2,3,4,5,99). 99 represents coastline. 0 is international border, 1 is Admin1 border, 2 is Admin2 border, etc. Each line is attributed with the highest admin level that it can participate in.</history>
+  <dates>
+    <date value="2018-09-11T00:00:00" type="Created"/>
+    <date value="2018-09-11T00:00:00" type="Published"/>
+  </dates>
+  <fees></fees>
+  <constraints type="Limitations of use">See the COD/FOD Registry Terms of Use. This does not replace any terms of use information provided with the dataset.</constraints>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minx="25.23759700000000095" maxx="33.06717799999999841" maxy="-15.60714300000000065" crs="EPSG:4326" dimensions="2" miny="-22.42104900000000001" minz="0" maxz="0"/>
+    <temporal>
+      <period>
+        <start>2018-09-10T22:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
